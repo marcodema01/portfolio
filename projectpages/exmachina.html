@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex Machina</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+    <link rel="stylesheet" href="/assets/projectstyle.css" />
+    <script src="/assets/script.js" defer></script>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollToPlugin.min.js"></script>
+    <header>
+      <div class="top-bar">
+        <div class="left">
+          <p>Interaction and <br />Product Designer</p>
+        </div>
+        <div class="name"><h2>MARCO</h2></div>
+        <div class="right"><p>Portfolio</p></div>
+      </div>
+      <div class="hero">
+        <div class="page-description">
+          <h3>
+            INTERACTIVE <br />
+            INSTALLATION
+          </h3>
+        </div>
+        <div class="page-title">
+          <span class="italic">Ex</span>
+          <span class="normal">Machina</span>
+        </div>
+        <div class="instructions">
+          <h3>
+            2025, <br />
+            <a
+              class="place-link"
+              href="https://g.co/kgs/uFUAY7K"
+              target="_blank"
+              rel="noopener noreferrer"
+              >SACEBA</a
+            >
+          </h3>
+        </div>
+      </div>
+      <nav>
+        <a class="navbutton-works" href="/index.html">
+          <div class="animate-text-w">
+            <p class="nav-number">01</p>
+            <div class="grid-nav-text">
+              <p class="nav-text-w filter">Works</p>
+              <p class="nav-text-w-clone">Works</p>
+            </div>
+          </div>
+        </a>
+        <a class="navbutton-about" href="">
+          <div class="animate-text-a">
+            <p class="nav-number">02</p>
+            <div class="grid-nav-text">
+              <p class="nav-text-a filter">About</p>
+              <p class="nav-text-a-clone">About</p>
+            </div>
+          </div>
+        </a>
+        <a class="navbutton-playground" href="">
+          <div class="animate-text-p">
+            <p class="nav-number">03</p>
+            <div class="grid-nav-text">
+              <p class="nav-text-p filter">Playground</p>
+              <p class="nav-text-p-clone">Playground</p>
+            </div>
+          </div>
+        </a>
+        <a class="navbutton-contact" href="">
+          <div class="animate-text-c">
+            <p class="nav-number">04</p>
+            <div class="grid-nav-text">
+              <p class="nav-text-c filter">Contacts</p>
+              <p class="nav-text-c-clone">Contacts</p>
+            </div>
+          </div>
+        </a>
+        <div class="animated-bar"></div>
+      </nav>
+    </header>
+    <main>
+      <section class="project-description">
+        <div class="gif-container">
+          <img
+            class="intro-gif"
+            src="/src/gif/exmachina.gif"
+            alt=""
+            draggable="false" />
+        </div>
+        <p class="prj-description-text">
+          Ex Machina is an interactive installation that immerses visitors in
+          the heart of an artificially generated cult set between a past shaped
+          by ancient rituals and a post-industrial future where artificial
+          artifacts become icons of worship. Three objects act as a bridge
+          between reality and the cult’s domain, their forms reverberating like
+          a distorted echo within the archive’s images. By grasping and engaging
+          with these objects, visitors navigate a photographic archive composed
+          of fleeting, stolen glimpses into the cult’s existence, where gestures
+          transform into rituals.
+        </p>
+      </section>
+
+      <div class="image-grid">
+        <div class="grid1">
+          <img src="/src/img/exmachina/grid1.jpg" alt="" draggable="false" />
+        </div>
+        <div class="grid2">
+          <img src="/src/img/exmachina/grid2.jpg" alt="" draggable="false" />
+        </div>
+        <div class="grid3">
+          <img src="/src/img/exmachina/grid3.jpg" alt="" draggable="false" />
+        </div>
+      </div>
+
+      <section class="project-description2">
+        <h1>The Idea</h1>
+        <p class="prj-description-text">
+          The idea initially arises from the intention of placing a medium at
+          the center of the installation—an object capable of existing
+          simultaneously both in the reality of the viewer and in the
+          artificially generated reality of the images. Interaction with it
+          creates a sense of misalignment with reality, catapulting the visitor
+          into the reality of the archive. After generating various ideas around
+          this theme, we decided to pursue the artificial creation of a
+          religious cult. Religious artifacts, since the dawn of time, have
+          carried with them a legacy of superstitions and beliefs—what would
+          happen if an artifact truly had power?
+        </p>
+      </section>
+
+      <section class="project-description2">
+        <h1>
+          How? <br />
+          <span class="subtitle">ARCHIVE GENERATION</span>
+        </h1>
+        <p class="prj-description-text">
+          We used Replicate to train an AI model and use it to generate the
+          images. In the end, we developed three main tokens for the three
+          objects, along with two additional ones for high-quality flash
+          photography and close-up shots.
+        </p>
+      </section>
+
+      <div class="flex-container">
+        <div class="gif-container">
+          <img src="/src/gif/archive1.gif" alt="" />
+        </div>
+        <div class="gif-container">
+          <img src="/src/gif/archive2.gif" alt="" />
+        </div>
+        <div class="gif-container">
+          <img src="/src/gif/archive3.gif" alt="" />
+        </div>
+      </div>
+
+      <section class="project-description2">
+        <span class="subtitle">THE OBJECTS</span>
+        <p class="prj-description-text">
+          The process of designing the objects was preceded by a schematization
+          of possible forms and their role within the navigation of the archive.
+          From there, we chose three paths. The first object would be linked to
+          the concept of aggregation, the second to contemplation, and the third
+          to power—three themes closely tied to the notion of worship. <br />
+          <br />
+          We started prototyping the objects by experimenting with different
+          finishing techniques for 3D printing, aiming to achieve the effect of
+          an artifact that was not entirely perfect but showed signs of wear and
+          use. To this end, we decided to hand-fill the 3D-printed object and
+          then finish it with a metallic paint. The process was therefore
+          conceptually the same as the design phase: a digital artifact that is
+          subsequently worked on and refined by human hands.
+        </p>
+      </section>
+
+      <div class="flex-container">
+        <div class="gif-container">
+          <img src="/src/img/exmachina/oggetto1.png" alt="" />
+        </div>
+        <div class="gif-container">
+          <img src="/src/img/exmachina/oggetto2.png" alt="" />
+        </div>
+        <div class="gif-container">
+          <img src="/src/img/exmachina/oggetto3.png" alt="" />
+        </div>
+      </div>
+
+      <section class="project-description2">
+        <p class="prj-description-text">
+          The main interactions are picking up the object and manipulating it.
+          In order to recognize that interaction, each object contains an
+          Arduino Nano ESP32, a small rechargeable battery and an accelerometer.
+          The setup is designed to be as compact as possible to keep the objects
+          relatively small and easy to handle.
+        </p>
+      </section>
+
+      <div class="image-grid">
+        <div class="grid1">
+          <img src="/src/img/exmachina/proto1.jpg" alt="" draggable="false" />
+        </div>
+        <div class="grid2">
+          <img src="/src/img/exmachina/proto2.jpg" alt="" draggable="false" />
+        </div>
+        <div class="grid3">
+          <img src="/src/img/exmachina/proto3.jpeg" alt="" draggable="false" />
+        </div>
+      </div>
+
+      <section class="project-description">
+        <div class="gif-container cut-image">
+          <img
+            class="intro-gif object-position"
+            src="/src/gif/interaction.gif"
+            alt=""
+            draggable="false" />
+        </div>
+        <p class="prj-description-text">
+          The exhibition features a projector that presents three different
+          archives of images generated by artificial intelligence, each
+          representing a distinct concept: aggregation, contemplation, and
+          power—all revolving around the central theme of the cult. These three
+          ideas are materialized through three different objects that visitors
+          can pick up and move to interact with the image archives. When a
+          visitor picks up an object, the corresponding archive becomes visible
+          on the wall, accompanied by evocative sounds. Picking up a second or
+          third object splits the screen, displaying multiple archives
+          simultaneously. The images appear one after the other at a speed
+          determined by the object’s inclination: the more horizontal it is, the
+          faster the archive progresses, and the higher the volume of the
+          accompanying sounds.
+        </p>
+      </section>
+
+      <div class="image-grid">
+        <div class="grid1">
+          <img src="/src/gif/grid1.gif" alt="" draggable="false" />
+        </div>
+        <div class="grid2">
+          <img src="/src/gif/grid2.gif" alt="" draggable="false" />
+        </div>
+        <div class="grid3">
+          <img src="/src/gif/grid3.gif" alt="" draggable="false" />
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="links">
+        <div id="backToTop">
+          <p class="back-to-top">Back to Top</p>
+        </div>
+        <a
+          href="https://edu.unstated.co/project/the-god-machine"
+          target="_blank"
+          rel="noopener noreferrer">
+          <p class="know-more">Know More</p>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
