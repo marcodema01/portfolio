@@ -1,0 +1,167 @@
+@font-face {
+    font-family: neueHaas;
+    src: url(./fonts/NeueHaasDisplay-Roman.woff);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: neueHaas;
+    src: url(./fonts/NeueHaasDisplay-Light.woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: neueHaas;
+    src: url(./fonts/NeueHaasDisplay-Mediu.woff);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: neueHaas;
+    src: url(./fonts/roxboroughcf-thinitalic.otf);
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: neueHaas;
+    src: url(./fonts/roxboroughcf-regular.otf);
+    font-weight: 500;
+}
+
+
+body{
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 35px;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    width: 80px;
+}
+
+.right{
+    width: 80px;
+    display: flex;
+    justify-content: right;
+}
+
+p{
+    font-family: neueHaas;
+    font-weight: normal;
+    font-size: 0.7vw;
+    margin: 0;
+    width: fit-content;
+}
+
+h2{
+    font-family: neueHaas;
+    font-weight: 600;
+    margin: 0;
+    font-size: 2em;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 110px 15vw 0px 15vw;
+}
+
+h3{
+    font-family: neueHaas;
+    font-weight: normal;
+    font-size: 0.8vw;
+}
+
+.page-description,
+.instructions
+{
+    width: 9vw;
+    text-align: center;
+}
+
+.page-title{
+    font-family: neueHaas;
+    font-size: 5.5em;
+}
+
+.italic{
+    font-weight: 300;
+    font-style: italic;
+}
+
+.normal{
+    font-weight: normal;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 10vw 0 10vw;
+    z-index: 99;
+}
+
+.grid-nav-text{
+    display: grid;
+}
+
+.nav-text-w,
+.nav-text-a,
+.nav-text-p,
+.nav-text-c{
+    grid-row: 1;
+    grid-column: 1;
+    font-family: neueHaas;
+    font-size: 0.7vw;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.nav-text-w-clone,
+.nav-text-a-clone,
+.nav-text-p-clone,
+.nav-text-c-clone{
+    grid-row: 1;
+    grid-column: 1;
+    font-family: neueHaas;
+    font-weight: 500;
+    font-size: 0.7vw;
+    z-index: 0;
+}
+
+.nav-number{
+    font-family: neueHaas;
+    font-size: 0.7vw;
+    font-weight: normal;
+    color: rgb(163, 163, 163);
+    margin-bottom: 0.2em;
+}
+
+.animated-bar{
+    position: absolute;
+    margin-top: 20px;
+    left: 0;
+    width: 100vw;
+    height: 1px;
+    background-color: white;
+    z-index: -100;
+    display: flex;
+    justify-content: center;
+}

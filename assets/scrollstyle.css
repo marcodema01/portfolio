@@ -1,0 +1,65 @@
+
+.scroll-container {
+    margin-top: 90px;
+    display: flex;
+    overflow-x: auto;
+    cursor: grab;
+    gap: 183px;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    user-select: none;
+}
+
+.scroll-container::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.project-card {
+    min-width: 200px;
+    height: 14vw;
+    display: flex;
+    flex-direction: row;
+    gap: 52px;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.zero{
+    margin: 0;
+    font-family: neueHaas;
+    font-weight: 500;
+}
+
+h4{
+    margin: 0;
+    font-family: neueHaas;
+    font-weight: normal;
+    font-size: 1.7vw;
+}
+
+.project-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+a{
+    display: inline-block;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+img{
+    width: 10vw;
+    height: 14vw;
+    object-fit: cover;
+    user-select: none;
+    -webkit-user-drag: none;
+}
